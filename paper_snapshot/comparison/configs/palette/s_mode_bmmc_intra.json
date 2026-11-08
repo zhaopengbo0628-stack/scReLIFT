@@ -1,0 +1,23 @@
+{
+  "method": "Palette-U",
+  "datasets": [
+    "BMMC_Site1",
+    "BMMC_Site2",
+    "BMMC_Site3",
+    "BMMC_Site4"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "run_tier": "pre_final",
+  "protocol": "single Source train; fixed validation; frozen RNA-only held-out intra; no pooling",
+  "latent_dim": 64,
+  "max_epochs": null,
+  "batch_size": null,
+  "learning_rate": null,
+  "kl_warmup_epochs": null,
+  "patience": 10,
+  "rscript": "/home/u202522802045/envs/supermap_r/bin/Rscript"
+}

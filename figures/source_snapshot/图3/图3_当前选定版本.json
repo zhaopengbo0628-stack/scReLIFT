@@ -1,0 +1,69 @@
+{
+  "user_confirmed_date": "2026-11-03",
+  "status": "current user-selected panels",
+  "panels": [
+    {
+      "files": [
+        {
+          "bytes": 203561,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3A_regulatory_reproducibility_vertical.png",
+          "sha256": "d0788cae7ca1eba9399b54d5d30a971d8315d7039c3108c798e12e5ed5495779"
+        },
+        {
+          "bytes": 46949,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3A_regulatory_reproducibility_vertical.pdf",
+          "sha256": "046310ce88c133e00cb01557d489cb35beb44f7e761b51ed093900132991fb15"
+        },
+        {
+          "bytes": 16343,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3A_regulatory_reproducibility_vertical.svg",
+          "sha256": "97ede336e66c91b1f8ae83432fcd6722f3a53818477ba1e1b3df49440aeb3cff"
+        },
+        {
+          "bytes": 4161,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3A_regulatory_reproducibility_vertical.py",
+          "sha256": "0f1743db054fa8cae64297726b64f032bafad1e7e2bf86a84a0b2750fb99e81e"
+        }
+      ],
+      "panel": "Figure 3A",
+      "position": "left",
+      "data": {
+        "path": "E:\\my_research\\画图\\我们的图\\图3\\绘图数据\\图3.2_Regulatory_Reproducibility_用户指定.csv",
+        "sha256": "3199240ea868925f759335c6ccf5fd4abcf58188cfdd494c0f04b4afe609c3dd"
+      }
+    },
+    {
+      "files": [
+        {
+          "bytes": 83929,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3B1_ENCODE_cCRE_barplot.png",
+          "sha256": "e06fa8f6193b1f4002d70770c8314c008c0d947a4afe49e3799ddcde06d021ad"
+        },
+        {
+          "bytes": 42466,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3B1_ENCODE_cCRE_barplot.pdf",
+          "sha256": "f575aa94afe470840f3eb04a5d9402bf8b3ac32ba352f28ee7342ee5748f3227"
+        },
+        {
+          "bytes": 13765,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3B1_ENCODE_cCRE_barplot.svg",
+          "sha256": "d7166c8d27fe893ddf3fd599b0b3b4173c2aa84d9a05d82226b0d4b10096fc76"
+        },
+        {
+          "bytes": 5109,
+          "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3B1_ENCODE_cCRE_barplot.py",
+          "sha256": "ad0f48e900c6ef40cefe54b31ee9b77aedbe831a995010e4278aae7d5b9373ff"
+        }
+      ],
+      "panel": "Figure 3B",
+      "position": "right",
+      "data": {
+        "path": "E:\\my_research\\画图\\我们的图\\图3\\Figure3B1_ENCODE_cCRE_used_data.csv",
+        "sha256": "a699285cbaaed567cee9ba0f57917b7c9824d2d619cff51596d7982971649704"
+      }
+    }
+  ],
+  "figure": "Figure 3",
+  "model": "scReLIFT",
+  "note": "Current Figure 3A is the vertical DotPlot confirmed by the user. The later three-metric boxplot was based on the wrong figure and is not part of Figure 3. Figure 3B and its data remain unchanged; historical right-panel B1 label retained."
+}

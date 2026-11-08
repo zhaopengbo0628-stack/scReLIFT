@@ -1,0 +1,29 @@
+{
+  "reference": "MAGCA reference 02 / Fig3.ipynb, code cell 0",
+  "cmap": "PRGn",
+  "normalization": "per-column median +/- 2.5 sample SD; missing values excluded",
+  "data_normalized": false,
+  "display_decimals": 2,
+  "missing": "NA (white background)",
+  "font": "Arial with DejaVu Sans fallback",
+  "dpi": 300,
+  "matplotlib": "3.11.2",
+  "columns": [
+    "ARI",
+    "NMI",
+    "ACC",
+    "Macro-F1",
+    "Balanced ACC",
+    "Purity@15",
+    "Silhouette"
+  ],
+  "methods": [
+    "scReLIFT",
+    "Palette-U",
+    "Multigrate",
+    "ECLARE-S",
+    "MultiVI",
+    "scButterfly"
+  ],
+  "clipped_texts": []
+}

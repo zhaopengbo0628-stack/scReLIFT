@@ -1,0 +1,121 @@
+{
+  "dataset": "PBMC",
+  "protocol": "intra",
+  "model_name": "scReLIFT",
+  "source": {
+    "path": "E:\\my_research\\画图\\我们的图\\图2\\图2.3_PBMC-imtra-效率_输入原表.md",
+    "sha256": "4726a6bb76e21b27f77b87756152b961b736e61ada1c479d46c80da0092c33b0"
+  },
+  "encoding": {
+    "x": "trainable_params / 1e6 (linear, reversed; limits 41 to 3)",
+    "y": "throughput_cells_per_sec.mean (broken linear axis: 0-20 and 10000-500000)",
+    "area": "peak_gpu_memory_gib.mean * 3200 points^2/GiB",
+    "color": "method"
+  },
+  "records": [
+    {
+      "method": "scReLIFT",
+      "source_method": "Full B2-S",
+      "device": "NVIDIA A30",
+      "trainable_params": 5294048,
+      "peak_gpu_memory_gib": {
+        "mean": 0.13897,
+        "reported_spread": 0.00012
+      },
+      "throughput_cells_per_sec": {
+        "mean": 453400.0,
+        "reported_spread": 12504.0
+      },
+      "inference_time_sec": {
+        "mean": 0.002105,
+        "reported_spread": 3.8e-05
+      },
+      "color": "#E7A26B"
+    },
+    {
+      "method": "Multigrate",
+      "source_method": "Multigrate",
+      "device": "NVIDIA A30",
+      "trainable_params": 22766157,
+      "peak_gpu_memory_gib": {
+        "mean": 0.69864,
+        "reported_spread": null
+      },
+      "throughput_cells_per_sec": {
+        "mean": 70107.0,
+        "reported_spread": 2575.0
+      },
+      "inference_time_sec": {
+        "mean": 0.013674,
+        "reported_spread": 0.000362
+      },
+      "color": "#8A6AA6"
+    },
+    {
+      "method": "Cobolt",
+      "source_method": "Cobolt",
+      "device": "NVIDIA A30",
+      "trainable_params": 17155307,
+      "peak_gpu_memory_gib": {
+        "mean": 0.57973,
+        "reported_spread": null
+      },
+      "throughput_cells_per_sec": {
+        "mean": 89824.0,
+        "reported_spread": 553.0
+      },
+      "inference_time_sec": {
+        "mean": 0.01071,
+        "reported_spread": 7e-05
+      },
+      "color": "#EBCB6A"
+    },
+    {
+      "method": "ECLARE-S",
+      "source_method": "ECLARE-S",
+      "device": "NVIDIA A30",
+      "trainable_params": 22601666,
+      "peak_gpu_memory_gib": {
+        "mean": 0.27142,
+        "reported_spread": null
+      },
+      "throughput_cells_per_sec": {
+        "mean": 144178.0,
+        "reported_spread": 9552.0
+      },
+      "inference_time_sec": {
+        "mean": 0.006677,
+        "reported_spread": 0.000483
+      },
+      "color": "#E57373"
+    },
+    {
+      "method": "scMomer-S",
+      "source_method": "scMomer-S",
+      "device": "NVIDIA A30",
+      "trainable_params": 37704250,
+      "peak_gpu_memory_gib": {
+        "mean": 1.03488,
+        "reported_spread": null
+      },
+      "throughput_cells_per_sec": {
+        "mean": 9.75,
+        "reported_spread": 0.006
+      },
+      "inference_time_sec": {
+        "mean": 100.5921,
+        "reported_spread": 0.0821
+      },
+      "color": "#63AE8C"
+    }
+  ],
+  "excluded": [
+    {
+      "source_method": "Palette-S",
+      "device": "CPU",
+      "reason": "CPU excluded by user"
+    }
+  ],
+  "aggregation_note": "Supplied aggregate means are plotted; reported spreads are preserved, not reinterpreted as confidence intervals.",
+  "comparability_note": "Same stated GPU model (NVIDIA A30). Inference batch, timing scope and phase of peak VRAM were not fully verified from this summary."
+}

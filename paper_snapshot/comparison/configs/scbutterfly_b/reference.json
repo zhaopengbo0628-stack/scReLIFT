@@ -1,0 +1,44 @@
+{
+  "method": "scButterfly-B",
+  "version": "0.0.9",
+  "upstream_commit": "eb31e04bb8c4abdf85c4cbecd044fcd359105caa",
+  "run_tier": "pre_final_user_declared_3seeds",
+  "strict_protocol_version": "goal1_strict_lodo_v1",
+  "primary_output": "RNA -> predicted ATAC, upstream threshold values <1e-4 to zero",
+  "R2R_pretrain_epoch": 100,
+  "A2A_pretrain_epoch": 100,
+  "translator_epoch": 200,
+  "patience": 50,
+  "batch_size": 64,
+  "main_lr": 0.001,
+  "discriminator_lr": 0.005,
+  "RNA_hidden": [
+    256,
+    128
+  ],
+  "ATAC_hidden": [
+    32,
+    128
+  ],
+  "translator_dim": 128,
+  "no_augmentation": true,
+  "source_labels_used": false,
+  "target_atac_used": false,
+  "target_labels_used_before_frozen_prediction": false,
+  "EVALUATION_TIME_UNSUPERVISED_SCALING": true,
+  "KNOWN_K_EVALUATION": true,
+  "cohort_caveat": "Inherited fixed paired/QC cohort and label-stratified splits, as Goal1; strict model fitting/inference only.",
+  "default_deviations": [
+    "strict source-only LODO feature protocol",
+    "seed before model construction",
+    "independent best SOURCE-validation checkpoint retained",
+    "RNA-only inference instead of paired test routine",
+    "controlled StandardScaler+known-K KMeans evaluator",
+    "NumPy2 Inf/NaN compatibility aliases",
+    "source validation TF-IDF clipped to [0,1] for BCE; no validation-fitted scaling"
+  ],
+  "fold": "target_D1",
+  "seed": 20020130,
+  "smoke": false,
+  "runner_sha256": "010b0f7a9e280f6c88df78baf63824437394a4638bc209fb4ac93b2c066094db"
+}

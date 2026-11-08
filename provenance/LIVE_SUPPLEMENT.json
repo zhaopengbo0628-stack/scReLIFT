@@ -1,0 +1,436 @@
+[
+  {
+    "release_path": "paper_snapshot/ablation/code/fusion/common_efficiency.py",
+    "source_relative_path": "ablation/code/fusion/common_efficiency.py",
+    "source_sha256": "3f0176459410b8b82d8f577137266d31b7b67bdb5b87a953553f2afce977520a",
+    "bytes": 1279,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/fusion/common_metrics.py",
+    "source_relative_path": "ablation/code/fusion/common_metrics.py",
+    "source_sha256": "09ee225aec576c188829fc0cbedaf3c952c4b3be98a8633bbbc21917b563c553",
+    "bytes": 2539,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/fusion/consolidate_three_groups.py",
+    "source_relative_path": "ablation/code/fusion/consolidate_three_groups.py",
+    "source_sha256": "ff3499cf743e509cb636aeda618cad0f551d2de7ff5db2680bc31829e2e61299",
+    "bytes": 10559,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/fusion/fusion.py",
+    "source_relative_path": "ablation/code/fusion/fusion.py",
+    "source_sha256": "fe5e56338ce871796b6810f8c1290de4fe1f3babcffc7a7473c91eef071097eb",
+    "bytes": 1690,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/fusion/summarize_fusion.py",
+    "source_relative_path": "ablation/code/fusion/summarize_fusion.py",
+    "source_sha256": "5d4b0b5cdf550c54acadbfc307bc316285d614979f27beaf40474b68e33a478b",
+    "bytes": 17578,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/fusion/test_static.py",
+    "source_relative_path": "ablation/code/fusion/test_static.py",
+    "source_sha256": "7e7eacdc6dd27611709822fda9a78d775ceaa9f880ffe813aceaa132b2453c56",
+    "bytes": 627,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/three_teacher/archive_summary.py",
+    "source_relative_path": "ablation/code/three_teacher/archive_summary.py",
+    "source_sha256": "a504fb58cdfa7a1ccae3debb25e8c8629ac895f17728ffda816ecd9caaa6af31",
+    "bytes": 6146,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/three_teacher/common_efficiency.py",
+    "source_relative_path": "ablation/code/three_teacher/common_efficiency.py",
+    "source_sha256": "3f0176459410b8b82d8f577137266d31b7b67bdb5b87a953553f2afce977520a",
+    "bytes": 1279,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/three_teacher/common_metrics.py",
+    "source_relative_path": "ablation/code/three_teacher/common_metrics.py",
+    "source_sha256": "09ee225aec576c188829fc0cbedaf3c952c4b3be98a8633bbbc21917b563c553",
+    "bytes": 2539,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/three_teacher/multi_teacher.py",
+    "source_relative_path": "ablation/code/three_teacher/multi_teacher.py",
+    "source_sha256": "6bdc3bdd6296d1c79190940ac4540f30f0b5fe4705f83dbb002e7202df26f784",
+    "bytes": 1635,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/code/three_teacher/test_static.py",
+    "source_relative_path": "ablation/code/three_teacher/test_static.py",
+    "source_sha256": "67773da5a89295f648ddb1ad998bc042b43777ff331e95fcec9cbe8ce6556838",
+    "bytes": 509,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/36_b2_three_causal_ablations_20261003/source/experiments/v5d/run_b2_strict_lodo.py",
+    "source_relative_path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/experiments/v5d/run_b2_strict_lodo.py",
+    "source_sha256": "3de1ad3642e7af276658d9b239ccaf9457adf7f8e6078b95a237cf4605f2c7e1",
+    "bytes": 40171,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/36_b2_three_causal_ablations_20261003/source/experiments/v5d/run_b2_three_ablations.py",
+    "source_relative_path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/experiments/v5d/run_b2_three_ablations.py",
+    "source_sha256": "c12ac9481e1371f1b33c839066e888891e1f445359b74f2f8839fc5e0d8f4ae8",
+    "bytes": 24606,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/__init__.py",
+    "source_relative_path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/__init__.py",
+    "source_sha256": "5cbaa1ca31f824d9bca48a608a194c9a82981ff54b281a804387c4af261b76be",
+    "bytes": 54,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/dmode_teacher.py",
+    "source_relative_path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/dmode_teacher.py",
+    "source_sha256": "a94181efa6884d039af9ecbf3b642a5e5b58273be8d48d95a9934ec0426afdc2",
+    "bytes": 2191,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/regulatory_graph.py",
+    "source_relative_path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/regulatory_graph.py",
+    "source_sha256": "e901310eeea909fbfefba69fd48ac988ed07c792b2d63c27fc21f9623336ae32",
+    "bytes": 3286,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/38_b2_complete_controls_20261003/source/finalize_b2_complete_controls.py",
+    "source_relative_path": "ablation/result/basic/38_b2_complete_controls_20261003/source/finalize_b2_complete_controls.py",
+    "source_sha256": "c173f305ed1b3434b485085a93b0799d3245ce2e7aba2d5cc82a7341d25f7949",
+    "bytes": 13984,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_c_geometry_control.py",
+    "source_relative_path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_c_geometry_control.py",
+    "source_sha256": "ca39dd181a73b1136a69af552b8797ac4cca531394acb924a0cc50e942b524df",
+    "bytes": 15176,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_complete_controls.py",
+    "source_relative_path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_complete_controls.py",
+    "source_sha256": "06bc748a93bf65a41ac101ac471f6d26e676a3846da8e19f9ab196bfd31ae2ee",
+    "bytes": 33731,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_strict_lodo.py",
+    "source_relative_path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_strict_lodo.py",
+    "source_sha256": "3de1ad3642e7af276658d9b239ccaf9457adf7f8e6078b95a237cf4605f2c7e1",
+    "bytes": 40171,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_three_ablations.py",
+    "source_relative_path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_three_ablations.py",
+    "source_sha256": "c12ac9481e1371f1b33c839066e888891e1f445359b74f2f8839fc5e0d8f4ae8",
+    "bytes": 24606,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/task38_corrected_pbmc002/build_task38_corrected_rna_cache.py",
+    "source_relative_path": "ablation/result/basic/task38_corrected_pbmc002/build_task38_corrected_rna_cache.py",
+    "source_sha256": "bf477655581620158f1bbc9f2c10bf97db343dc6c1e6f15201c8af35cf90a2dd",
+    "bytes": 8851,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/task38_corrected_pbmc002/prepare_task38_corrected_adapters.py",
+    "source_relative_path": "ablation/result/basic/task38_corrected_pbmc002/prepare_task38_corrected_adapters.py",
+    "source_sha256": "bb5679a9f91e343b8d11d6b40af0b4f28260fbfbb6c307341bc5f835f8023238",
+    "bytes": 3437,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/task38_corrected_pbmc002/run_task38_corrected_rna.py",
+    "source_relative_path": "ablation/result/basic/task38_corrected_pbmc002/run_task38_corrected_rna.py",
+    "source_sha256": "0b2053c197c1ec4d6b6ef0e3b569b6661fdbc5d4bf4a4e9c27e77b983b4a24f6",
+    "bytes": 16091,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/task38_corrected_pbmc002/task38_corrected_b2d_adapter.py",
+    "source_relative_path": "ablation/result/basic/task38_corrected_pbmc002/task38_corrected_b2d_adapter.py",
+    "source_sha256": "a1c6fcbd717b5261921227b9b0e138beee7c686032d641d376b21192a7cc4bda",
+    "bytes": 6024,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/task38_corrected_pbmc002/task38_corrected_controls_adapter.py",
+    "source_relative_path": "ablation/result/basic/task38_corrected_pbmc002/task38_corrected_controls_adapter.py",
+    "source_sha256": "f8ceb3e42f92aa396eaf20e1876356fa93b96855efa7d96a9ea85410440db183",
+    "bytes": 8708,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/task38_corrected_pbmc002/task38_corrected_scbutterfly_adapter.py",
+    "source_relative_path": "ablation/result/basic/task38_corrected_pbmc002/task38_corrected_scbutterfly_adapter.py",
+    "source_sha256": "5dc5c474a9856e86dfe4303aef66a5c1e65d1b5de73a9569aa86e76beea161b4",
+    "bytes": 7278,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/result/basic/task38_corrected_pbmc002/task38_finalize_reports.py",
+    "source_relative_path": "ablation/result/basic/task38_corrected_pbmc002/task38_finalize_reports.py",
+    "source_sha256": "c964f5c9d8bbcec54a9eaf8bbfa23183c63ebaf73a8c3b8ce566e0a4446e9a41",
+    "bytes": 9686,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/run/fusion/launch.sh",
+    "source_relative_path": "ablation/run/fusion/launch.sh",
+    "source_sha256": "899a59ed39f8a21d85a81ecd44c646dfa8aba00d6c04973cf7629a89a677e41d",
+    "bytes": 1673,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/run/fusion/run_fusion.py",
+    "source_relative_path": "ablation/run/fusion/run_fusion.py",
+    "source_sha256": "9a28e59138516ba1fb05fb5df2335aaf1dc9e48a4a12b7a143f505567f4ad408",
+    "bytes": 16113,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/run/s_mode_no_bf.py",
+    "source_relative_path": "ablation/run/s_mode_no_bf.py",
+    "source_sha256": "b7541a0d30f7483da83e40235c2ced22f173b534846eab2a5e00541d14e2b117",
+    "bytes": 6396,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/run/submit_s_mode_no_bf.py",
+    "source_relative_path": "ablation/run/submit_s_mode_no_bf.py",
+    "source_sha256": "bddda90d53f54be78b1b399add0232b756a20467727615539c97da7ce0118c1c",
+    "bytes": 7050,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/run/three_teacher/launch.sh",
+    "source_relative_path": "ablation/run/three_teacher/launch.sh",
+    "source_sha256": "a263e39097abc9b5c12dda16467cc6cea33c3b28dbb5e60dabe5e5e9ea12ca39",
+    "bytes": 796,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/ablation/run/three_teacher/run_ablation.py",
+    "source_relative_path": "ablation/run/three_teacher/run_ablation.py",
+    "source_sha256": "25006629c9f4832bbe263ec307c0514710070b76fa6375e383e5bad03fbe2ec2",
+    "bytes": 15728,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/main/result/d_mode/35_b2_shared_regulatory_teacher_dense_kd_20261003/source/b2_geometry_control.py",
+    "source_relative_path": "main/result/d_mode/35_b2_shared_regulatory_teacher_dense_kd_20261003/source/b2_geometry_control.py",
+    "source_sha256": "b35661c07141e2d823aefe52dfffd54d790afec70e71e08a4dd49c989d7efdc5",
+    "bytes": 3916,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/main/result/d_mode/35_b2_shared_regulatory_teacher_dense_kd_20261003/source/run_b2_strict_lodo.py",
+    "source_relative_path": "main/result/d_mode/35_b2_shared_regulatory_teacher_dense_kd_20261003/source/run_b2_strict_lodo.py",
+    "source_sha256": "3de1ad3642e7af276658d9b239ccaf9457adf7f8e6078b95a237cf4605f2c7e1",
+    "bytes": 40171,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/__init__.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/__init__.py",
+    "source_sha256": "95d17bea8ce683fbb2c803f2bae25da3b35774a88f4782600329c868a7ed3288",
+    "bytes": 40,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/config.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/config.py",
+    "source_sha256": "f1215aaa0301ec025e679806c8adea9fdf06549b916ac69b8501615257f944a5",
+    "bytes": 831,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/data.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/data.py",
+    "source_sha256": "ae6d03cb6bf3d48c2af16e4026ff72cf6e072ae96b701d3e77c30c72773fed00",
+    "bytes": 5805,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/edge_selector.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/edge_selector.py",
+    "source_sha256": "c8e2e1946be278724a23d4fca8191cfed32ddae620ebffc68912c18b7feba2fc",
+    "bytes": 13685,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/evaluate_geometry.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/evaluate_geometry.py",
+    "source_sha256": "35cd8cd879034d8d987a6d55b188d99a8387a2f564700e2d2ee1f97445bd6c30",
+    "bytes": 4915,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/geometry.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/geometry.py",
+    "source_sha256": "007b4fbd41fd1db3b06a3deb45d8f9679651336c1e10772393bec0d7060e0f4a",
+    "bytes": 306,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/linear_teacher.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/linear_teacher.py",
+    "source_sha256": "f58091d2c2f1600068ba2811e929533c982b2b97c697c2b1d3f501190ae5aa50",
+    "bytes": 1683,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/regulatory_graph.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/regulatory_graph.py",
+    "source_sha256": "96bf7e4997956be0ff95b245f327712ed084f5401f9a6001f5c51c5a8f800a25",
+    "bytes": 3836,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/regulatory_transformer.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/regulatory_transformer.py",
+    "source_sha256": "0bf5de2321d23b0e41c593d8bff472d62cb1ae2e0107d53ed0ef9bd67187f52e",
+    "bytes": 5086,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/run_v5s.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/run_v5s.py",
+    "source_sha256": "7d2f9be98c01b032f6b9e536888134c55953628e4c0486d5a2263452d88e165b",
+    "bytes": 11224,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/train_transformer_teacher.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/train_transformer_teacher.py",
+    "source_sha256": "5707b84c2fe7a12af03ae6da0213e77fbb5b9f159d632b5cf5815ea67de9a529",
+    "bytes": 5983,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/model_dev/core/historical_V5/v5_final_20260906/v5s/utils.py",
+    "source_relative_path": "model_dev/core/historical_V5/v5_final_20260906/v5s/utils.py",
+    "source_sha256": "557d2b60478fef9e2d57f37784f10349a0ec64db9c18dc85f1bf9552b51b552c",
+    "bytes": 692,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/regulatory/finalize_motif_correction.py",
+    "source_relative_path": "regulatory/finalize_motif_correction.py",
+    "source_sha256": "738dfc531d416a930698cf6f7acc5994d6223d8768f7972b584af0e5c962e963",
+    "bytes": 8159,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/regulatory/motif_null_corrected_20261101/run_strict_after_scan.py",
+    "source_relative_path": "regulatory/motif_null_corrected_20261101/run_strict_after_scan.py",
+    "source_sha256": "2225a11d7f9c958ffce849570322637ae2e2656dda485719a3d02163022be457",
+    "bytes": 670,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/regulatory/motif_null_corrected_20261101/strict_length_null/run_motif_null_corrected.py",
+    "source_relative_path": "regulatory/motif_null_corrected_20261101/strict_length_null/run_motif_null_corrected.py",
+    "source_sha256": "6705e6509180b967a2c5bbb565325fd5aa7fa91781d8e314702c9f84e9846991",
+    "bytes": 23154,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/regulatory/run_motif_null_corrected.py",
+    "source_relative_path": "regulatory/run_motif_null_corrected.py",
+    "source_sha256": "e8639f3202d3e117011dcb652a1517f18496e9ea6b2bb7a3ad5b3176e113e66a",
+    "bytes": 18993,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/regulatory/run_motif_null_strict.py",
+    "source_relative_path": "regulatory/run_motif_null_strict.py",
+    "source_sha256": "6705e6509180b967a2c5bbb565325fd5aa7fa91781d8e314702c9f84e9846991",
+    "bytes": 23154,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_canonical_peaks.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_canonical_peaks.py",
+    "source_sha256": "93bfe1cf98706e6babaaf160babbcfda762bad206e112be35730e51200e0a013",
+    "bytes": 4269,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_rds_strings.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_rds_strings.py",
+    "source_sha256": "4417c84462ea535c0b040ceb15875e8889970e1dd5396e60f0635cd2655154d2",
+    "bytes": 4376,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_target_counts.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_target_counts.py",
+    "source_sha256": "23e584c8bf1a2609343220fb48f6f3ceb304572666d5d7e2b4bfdb60dd855f7c",
+    "bytes": 5532,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/extract_rds_active_identity.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/extract_rds_active_identity.py",
+    "source_sha256": "8f088165adbe958926288c065562381cf07ac7b7d942c3944ba81cff8d7c37fe",
+    "bytes": 3750,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/harmonize_frozen.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/harmonize_frozen.py",
+    "source_sha256": "dbbfec05178fed95f5d665d5618c9352074f90d8bc61de93fb9d234bc1a4568a",
+    "bytes": 10905,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/prepare_protocol.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/prepare_protocol.py",
+    "source_sha256": "7512fcc6ff795901ad15596ca464e8ef2f3d287e55ca8e571c836e6302b9b605",
+    "bytes": 9781,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/prepare_seaad_eligible_counts.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/prepare_seaad_eligible_counts.py",
+    "source_sha256": "30a9cb58503464301e44a124bf80a6ec266f80a374f7eebac5e26871171cfc04",
+    "bytes": 4637,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/record_identity_discovery.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/record_identity_discovery.py",
+    "source_sha256": "e40b2f13938bb459d9dc2613b76aea7141859345be7b20b1201b29465796f11e",
+    "bytes": 3980,
+    "origin": "live zpb SSH on 2026-11-06"
+  },
+  {
+    "release_path": "paper_snapshot/result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/regulatory_graph_frozen.py",
+    "source_relative_path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/regulatory_graph_frozen.py",
+    "source_sha256": "e901310eeea909fbfefba69fd48ac988ed07c792b2d63c27fc21f9623336ae32",
+    "bytes": 3286,
+    "origin": "live zpb SSH on 2026-11-06"
+  }
+]

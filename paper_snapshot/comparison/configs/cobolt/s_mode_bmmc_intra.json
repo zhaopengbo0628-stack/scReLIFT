@@ -1,0 +1,22 @@
+{
+  "method": "cobolt",
+  "datasets": [
+    "BMMC_Site1",
+    "BMMC_Site2",
+    "BMMC_Site3",
+    "BMMC_Site4"
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "run_tier": "pre_final",
+  "protocol": "single Source train; fixed validation; frozen RNA-only held-out intra; no pooling",
+  "latent_dim": 64,
+  "max_epochs": 100,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "kl_warmup_epochs": 30,
+  "patience": 10
+}

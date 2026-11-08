@@ -1,0 +1,5 @@
+{
+  "remote": "/tmp/screlift_release_check_24a95848b7",
+  "archive": "E:\\my_research\\\u5f00\u6e90\u4ee3\u7801\\screlift_release_check_24a95848b7.tar.gz",
+  "command": "mkdir /tmp/screlift_release_check_24a95848b7 && tar -xzf /tmp/screlift_release_check_24a95848b7.tar.gz -C /tmp/screlift_release_check_24a95848b7 && cd /tmp/screlift_release_check_24a95848b7 && PYTHONPATH=src /home/u202522802045/envs/glue_156478/bin/python tests/smoke_pipeline.py --integration-output /tmp/screlift_release_check_24a95848b7/synthetic_check --cuda"
+}

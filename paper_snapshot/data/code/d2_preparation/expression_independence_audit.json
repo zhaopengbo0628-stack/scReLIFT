@@ -1,0 +1,24 @@
+{
+  "subset": "HDa",
+  "cells": 6317,
+  "common_genes": 2000,
+  "new_eligible_cells": 6087,
+  "minimum_nonzero_genes": 20,
+  "comparisons": [
+    {
+      "dataset": "PBMC-MO-001__10X__GranSorted__10k__Multiome",
+      "eligible_cells": 9079,
+      "matched_expression_fingerprints": 0
+    },
+    {
+      "dataset": "PBMC-MO-003__10X__Unsorted__10k__Multiome",
+      "eligible_cells": 7799,
+      "matched_expression_fingerprints": 0
+    },
+    {
+      "dataset": "PBMC-MO-004__10X__Unsorted__3k__Multiome",
+      "eligible_cells": 2236,
+      "matched_expression_fingerprints": 0
+    }
+  ]
+}

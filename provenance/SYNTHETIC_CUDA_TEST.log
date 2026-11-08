@@ -1,0 +1,20 @@
+/home/u202522802045/envs/glue_156478/lib/python3.10/site-packages/torch/cuda/__init__.py:58: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+test_extraction_matches_original (__main__.PipelineChecks) ... ok
+test_frozen_network_backward (__main__.PipelineChecks) ... ok
+test_summary_enforces_seed_and_fold_policy (__main__.PipelineChecks) ... ok
+test_target_changes_cannot_refit_source (__main__.PipelineChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.067s
+
+OK
+EPOCH model_S teacher 20020130 1 1.3783555030822754 best 1.3783555030822754
+EPOCH model_S teacher 20020130 2 1.0460554361343384 best 1.0460554361343384
+EPOCH model_S student 20020130 1 0.5683654546737671 best 0.5683654546737671
+EPOCH model_S student 20020130 2 0.5444863438606262 best 0.5444863438606262
+EPOCH model_D teacher 20020130 1 1.5609807968139648 best 1.5609807968139648
+EPOCH model_D teacher 20020130 2 1.260401725769043 best 1.260401725769043
+EPOCH model_D student 20020130 1 0.689739465713501 best 0.689739465713501
+EPOCH model_D student 20020130 2 0.6632006168365479 best 0.6632006168365479
+{"status": "PASS", "synthetic_only": true, "cuda_training": true, "modes": {"S": {"preparation": true, "training": true, "resume": true, "inference": true, "scoring": true}, "D": {"preparation": true, "training": true, "resume": true, "inference": true, "scoring": true}}, "tamper_rejected": true}

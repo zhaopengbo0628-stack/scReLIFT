@@ -1,0 +1,30 @@
+{
+  "original": "paper_snapshot/main/core/run_b2_strict_lodo.py",
+  "original_sha256": "3de1ad3642e7af276658d9b239ccaf9457adf7f8e6078b95a237cf4605f2c7e1",
+  "definitions": [
+    "sha",
+    "read",
+    "write",
+    "now",
+    "seed_all",
+    "save_array",
+    "save_checkpoint",
+    "evaluate",
+    "Encoder",
+    "Teacher",
+    "batches",
+    "batch_tensor",
+    "teacher_losses",
+    "forward_numpy",
+    "rank_info",
+    "probe",
+    "rng_state",
+    "restore_rng",
+    "train_stage"
+  ],
+  "method": "verbatim line extraction, including decorators",
+  "removed": "filesystem/task-registry orchestration and Unix fcntl import",
+  "scientific_changes": [],
+  "runtime_constraint": "train_stage currently requires CUDA; CPU forward/backward is supported",
+  "regulatory_changes": "relative import paths only in preprocessing.py; v5d support files copied verbatim"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "scMomer-S",
+  "datasets": ["D1", "D2", "D3", "D4"],
+  "seeds": [20020130, 20020131, 20020132, 20020133, 20020134],
+  "run_tier": "pre_final",
+  "protocol": "Source paired reconstruction and S3; fixed Source val; frozen test RNA only",
+  "max_epochs": 100,
+  "patience": 10,
+  "batch_size": 16,
+  "rna_batch_size": 1,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "latent_dim": 128
+}

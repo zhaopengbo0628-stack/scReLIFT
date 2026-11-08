@@ -1,0 +1,11 @@
+{
+  "source": "PBMC-MO-001",
+  "rna_counts": "../data/PBMC-MO-001/rna_counts.npz",
+  "gene_ids": "../data/PBMC-MO-001/gene_ids.npy",
+  "atac_counts": "../data/PBMC-MO-001/atac_counts.npz",
+  "peak_names": "../data/PBMC-MO-001/peak_names.npy",
+  "splits": "../data/PBMC-MO-001/metadata.npz",
+  "gtf": "../data/reference/gencode.v32.primary_assembly.annotation.gtf.gz",
+  "hvg_count": 2000,
+  "smoke_only": false
+}

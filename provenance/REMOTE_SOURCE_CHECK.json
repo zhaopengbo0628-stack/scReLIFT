@@ -1,0 +1,1778 @@
+{
+  "checked_on": "2026-11-06",
+  "rows": [
+    {
+      "path": "comparison/configs/cobolt/s_mode_bmmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/cobolt/s_mode_pbmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/eclare/official_reference/config.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/eclare/official_reference/config.yaml",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/eclare/official_reference/config_template.yaml",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/eclare/official_reference/export_env_variables.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/eclare/official_reference/export_env_variables.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/eclare/s_mode_bmmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/eclare/s_mode_pbmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/multigrate/s_mode_bmmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/multigrate/s_mode_pbmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/palette/s_mode_bmmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/palette/s_mode_pbmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/rna_baseline/historical_d_mode_reference.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/rna_baseline/rna_only_ae_v1.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/scbutterfly_b/reference.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/scmomer/s_mode_bmmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/configs/scmomer/s_mode_pbmc_intra.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/benchmark_efficiency_v2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_b2_inter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_eclare_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_inter_summary.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_intra_common.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_intra_queue.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_intra_summary.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_multivi_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_multivi_queue.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_neural_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_scmomer_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/bmmc_shim/pbmc_intra_common.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/cobolt/s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/eclare/s_mode_adapter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/eclare/s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/efficiency_v2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/fill_scmomer_smoke.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/finalize_bmmc_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/gao_intra/common.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/gao_intra/manage.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/gao_intra/methods.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/gao_intra/prepare.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/infer_neural_rna.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/infer_rna.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/multigrate/s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/neural_s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/palette/fit_source.R",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/palette/s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/patch_cobolt.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/patch_cobolt_lr.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/pbmc_intra_common.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/queue_s_mode_inter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/queue_s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/register_task98.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/repair_cobolt.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/resume_scmomer.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/rna_baseline/d_mode/run_task38_corrected_rna.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/s_mode_inter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scbutterfly_b/extend_5seed.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scbutterfly_b/s_mode_corrected_pbmc.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scbutterfly_b/s_mode_intra_resume.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scbutterfly_b/task38_corrected_scbutterfly_adapter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scbutterfly_b/task38_scbutterfly_complete_provenance.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scbutterfly_b/task_scbutterfly_eclare_finalize.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scmomer/ad_donor/audit_resume_task74.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scmomer/ad_donor/register.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scmomer/ad_donor/resume_task74.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scmomer/ad_donor/run.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scmomer/s_mode_adapter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/scmomer/s_mode_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/submit_s_mode_inter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/summarize_efficiency_v2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/task98_params.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "comparison/run/task98_runtime.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/ad/seaad_mtg_v1_20261015/download_seaad.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/ad/seaad_mtg_v1_20261015/run_seaad_stage.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/ad/seaad_mtg_v1_20261015/stage_seaad.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/ad/seaad_mtg_v1_20261015/test_stage_seaad.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/ad/stage_gse214979.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/d2_preparation/export_replacement_pbmc.R",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/d2_preparation/expression_independence_audit.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/d2_preparation/prepare_replacement_pbmc.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/d2_preparation/processing_report.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/s_mode/prepare.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/code/s_mode/prepare_no_bf.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/audit_bmmc.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/build_four_lodo.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/build_four_lodo_v2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/build_four_source_prepared.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/make_lodo_audit.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/prepare_issaac_dmode.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/register_task86.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/register_task87.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/d_mode/restore_task86.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/gene_ids.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/bmmc_extra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/build_bmmc_comparison.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/build_fc_labeled.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/build_issaac.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/build_zeppilli_counts.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/finish_task83_audit.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/four_dataset_preflight.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/hvg_sparsity_audit.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/lodo_gene_probe.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/make_other_configs.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/make_palette_config.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/make_task89_manifest.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/make_task89_reports.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/parse_issaac_rna.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/parse_zeppilli_h5.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/patch_bmmc_runners.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/patch_neural.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/prepare_bmmc_site_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/register_task83.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/register_task85.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/register_task89.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/register_task97.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/repair_fc_cell_alignment.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "data/run/s_mode/run_bmmc_intra.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/configs/corrected_pbmc_reference.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/configs/smode_pbmc_corrected.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/b2_geometry_control.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/README.md",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/dmode_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/adjudicate_task29_causal.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/audit_task15_lodo_outcomes.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/audit_task16_global_partition.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/audit_task27_teacher_target_information.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/audit_task29_capacity.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/audit_task29_pairbank_information.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/audit_task29_pairbank_oracle.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/audit_task29_practical_k60.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/finalize_b2_complete_controls.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/finalize_goal2_strict.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/goal2_source_gw_gate.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/GOAL2_STRICT_PROTOCOL.md",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/pre_task14_source_quality_audit.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_b2_c_geometry_control.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_b2_complete_controls.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_b2_curriculum.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_goal2_strict_d_branches.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_goal2_strict_scbutterfly.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_strict_lodo_two_step.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task14_dmode_lodo.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task17_dmode_weighted_lodo.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task18_dmode_rna_anchored_snf.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task19_dmode_rna_anchor_parameterization.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task20_dmode_fixed_rna_anchor_parameterization.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task21_dmode_fixed_rna_anchor_parameterization.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task26_dmode_rna_scaffold_bounded_residual.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task28_dmode_candidate_normalized_teacher_target.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task30_dmode_k60_pairbank_student.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task31_dmode_spectral_landmark_global.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/run_task32_dmode_vector_norm_residual.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/experiments/v5d/shared_rna_backbone_quality_audit.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/student_encoder.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/__init__.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/data.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/dataset_spec.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/dmode_reliable_selector.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/dmode_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/evaluate_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/harmonize.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/regulatory_graph.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d/utils.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/__init__.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/config.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/data.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/evaluate_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/geometry_metrics.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/pair_bank.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/student_encoder.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5d_student/train_student.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5s_student/__init__.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/legacy_support/v5s_student/geometry_metrics.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/common/regulatory_graph.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/d_mode/dmode_reliable_selector.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/regulatory/s_mode/single_source.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/core/run_b2_strict_lodo.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/env/historical_environment.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/d_mode/launch_updated_b2_validated.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/d_mode/prepare_updated_b2_sources.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/d_mode/run_updated_b2_validated.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/d_mode/source_rebuild_updated_full_b2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/d_mode/task38_corrected_b2d_adapter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/d_mode/unblock_updated_full_b2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/prepare_updated_b2_sources.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/run_updated_b2_validated.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/ad.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/ad_donor_prediction.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/audit_scoring_timing.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/donor_probe.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/execute.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/queue_ad.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/register_ad.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/summarize.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/tests/test_smode_full_b2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/s_mode/train.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/source_rebuild_updated_full_b2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/run/unblock_updated_full_b2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/tests/test_smode_full_b2.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/regulatory_biology_20261026/analyze_core.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/regulatory_biology_20261026/export_edges.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/regulatory_biology_20261026/input_hash.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/regulatory_biology_20261026/stability.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "regulatory/prepare_motif_inputs.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "regulatory/run_fimo_matched.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "regulatory/run_fimo_scan.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "regulatory/run_pbmc_biology.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/aggregate_task99_table.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/check_existing_pbmc.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/fit_palette_lodo.R",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/prepare_updated_b2_sources.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/run_full_b2_queue.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/run_task99_lodo_queue.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/run_updated_b2_validated.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_eclare_D1_20020130_v4/adapter_smoke.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_multigrate_D1_20020130_v5/adapter_smoke.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_multigrate_D1_20020130_v5/history.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_multivi_D1_20020130_v2/adapter_smoke.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130/train_cells.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130_v2/atac_features.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130_v2/rna_features.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130_v2/train_cells.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130_v3/adapter_smoke.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130_v3/atac_features.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130_v3/rna_features.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/smoke_palette_D1_20020130_v3/train_cells.txt",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/task99_lodo_adapters.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/update_task99_adapter_status.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/99_pbmc_lodo_dmode_20261024/source/update_task99_running_status.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/queue/source_balanced_selector.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_LODO_20261026_rev02/queue/ad_fourfold_prepare.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/frozen_protocol.json",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_biology.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_comparison_report.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_evaluate.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_export.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_final_check.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_finish.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_new_cohort.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_pipeline.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_prepare.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_rna.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_runtime.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_train.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/ad_verify_bundle.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04/source/test_ad_replacement.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/analysis_pipeline.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/analysis_pipeline_D1.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/analysis_pipeline_D2.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/analysis_pipeline_D3.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/analysis_pipeline_D4.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/archive_result_delivery.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/atac_all_b2_candidates.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/bootstrap.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/bootstrap.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/build_case_data.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/case_plot_common.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/check_final_figures.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/collect.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/collect_and_rank.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/configure_analysis.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/final_case_pipeline.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/finalize_evidence.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/finalize_status_metadata.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/link_atac_template.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/plot_candidate_evidence_overview.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/plot_case_atac.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/plot_case_markers.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/plot_case_pathways.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/plot_case_qc_stability.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/plot_case_umap.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/postprocess_fold.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/postprocess_fold_D2.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/postprocess_fold_D3.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/postprocess_fold_D4.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/prepare_fold.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/preview_pathway_counts.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/queue_worker.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/reconcile_functional_BH.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/record_figure_review.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/score_candidates.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/score_D1.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/score_D2.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/score_D3.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/score_D4.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/verification_pipeline.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/verify_final_results.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/verify_local_delivery.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/verify_training_and_annotations.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/worker.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/write_current_readout.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/write_final_report.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_AllCells_AllFold_CaseSearch_20261030/source/write_status.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/archive_pca_snapshot.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/check_d2_normalization.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/common.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/extract_hda.R",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/finalize.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/finalize_run.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/prepare_pbmc10k_model_v1.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/prepare_updated_b2_sources.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/run_b2_strict_lodo.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/run_model_pca_snapshot.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/__init__.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/data.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/dataset_spec.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/dmode_reliable_selector.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/dmode_teacher.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/evaluate_teacher.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/harmonize.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/regulatory_graph.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5d/utils.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/__init__.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/config.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/data.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/edge_selector.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/evaluate_geometry.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/geometry.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/linear_teacher.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/regulatory_graph.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/regulatory_transformer.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/run_v5s.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/train_transformer_teacher.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/frozen/v5s/utils.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/inspect_remote_inputs.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/locate_corrected_inputs.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/plot_qc_rna.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/plot_qc_rna.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/postprocess.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/postprocess.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/prepare.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/prepare_allcells.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/probe_runtime_inputs.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/queue_worker.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/run_model.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/runtime_witness.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/sync_completed_run.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/verify_download.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/verify_results.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Dmode_20261030/source/worker.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/analysis_common.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/anchor_comparison_plots.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/anchor_plots.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/archive.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/archive_delivery.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/build_evidence_report.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/build_primary_report.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/chinese_overview.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/chinese_overview.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/deg.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/deg_all_candidates.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/enrichment.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/enrichment.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/fgsea.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/fgsea_expressed.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/fgsea_expressed.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/fgsea_pipeline.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/frozen_task99_analysis.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/install_fgsea.R",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/inventory.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/inventory.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/plot.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/plot_candidate_evidence.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/plot_primary_enrichment.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/primary_plots.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/primary_report.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/probe_dependencies.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/report.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/retry_expressed.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/run_fgsea.R",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/run_fgsea_expressed.R",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/verify.sh",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "subtype/PBMC_D1_AllCells_Subtype_DEG_20261030/source/verify_and_summarize.py",
+      "status": "MISSING_REMOTE"
+    },
+    {
+      "path": "ablation/code/fusion/common_efficiency.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/fusion/common_metrics.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/fusion/consolidate_three_groups.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/fusion/fusion.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/fusion/summarize_fusion.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/fusion/test_static.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/three_teacher/archive_summary.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/three_teacher/common_efficiency.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/three_teacher/common_metrics.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/three_teacher/multi_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/code/three_teacher/test_static.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/experiments/v5d/run_b2_strict_lodo.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/experiments/v5d/run_b2_three_ablations.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/__init__.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/dmode_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/36_b2_three_causal_ablations_20261003/source/v5d/regulatory_graph.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/38_b2_complete_controls_20261003/source/finalize_b2_complete_controls.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_c_geometry_control.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_complete_controls.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_strict_lodo.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/38_b2_complete_controls_20261003/source/run_b2_three_ablations.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/task38_corrected_pbmc002/build_task38_corrected_rna_cache.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/task38_corrected_pbmc002/prepare_task38_corrected_adapters.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/task38_corrected_pbmc002/run_task38_corrected_rna.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/task38_corrected_pbmc002/task38_corrected_b2d_adapter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/task38_corrected_pbmc002/task38_corrected_controls_adapter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/task38_corrected_pbmc002/task38_corrected_scbutterfly_adapter.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/result/basic/task38_corrected_pbmc002/task38_finalize_reports.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/run/fusion/launch.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/run/fusion/run_fusion.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/run/s_mode_no_bf.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/run/submit_s_mode_no_bf.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/run/three_teacher/launch.sh",
+      "status": "MATCH"
+    },
+    {
+      "path": "ablation/run/three_teacher/run_ablation.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/result/d_mode/35_b2_shared_regulatory_teacher_dense_kd_20261003/source/b2_geometry_control.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "main/result/d_mode/35_b2_shared_regulatory_teacher_dense_kd_20261003/source/run_b2_strict_lodo.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/__init__.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/config.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/data.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/edge_selector.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/evaluate_geometry.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/geometry.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/linear_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/regulatory_graph.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/regulatory_transformer.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/run_v5s.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/train_transformer_teacher.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "model_dev/core/historical_V5/v5_final_20260906/v5s/utils.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "regulatory/finalize_motif_correction.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "regulatory/motif_null_corrected_20261101/run_strict_after_scan.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "regulatory/motif_null_corrected_20261101/strict_length_null/run_motif_null_corrected.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "regulatory/run_motif_null_corrected.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "regulatory/run_motif_null_strict.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_canonical_peaks.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_rds_strings.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/audit_target_counts.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/extract_rds_active_identity.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/harmonize_frozen.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/prepare_protocol.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/prepare_seaad_eligible_counts.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/record_identity_discovery.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_Dmode_4Cohort_20261024/source_snapshot/regulatory_graph_frozen.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOLD2_PSEUDOBULK_3SEED_20261030/fold2_pseudobulk_seeds.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOLD2_PSEUDOBULK_3SEED_20261030/package_fold2_results.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_FOLD2_PSEUDOBULK_3SEED_20261030/verify_fold2_pseudobulk.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_LODO_BIOLOGY_VALIDATION_20261029/biology_validation.py",
+      "status": "MATCH"
+    },
+    {
+      "path": "result_contain/AD_LODO_BIOLOGY_VALIDATION_20261029/resume_biology.py",
+      "status": "MATCH"
+    }
+  ],
+  "counts": {
+    "MATCH": 311,
+    "MISSING_REMOTE": 131,
+    "DIFFERENT": 0
+  }
+}

@@ -1,0 +1,9 @@
+args<-commandArgs(trailingOnly=TRUE)
+lib<-args[[1]]
+dir.create(lib,recursive=TRUE,showWarnings=FALSE)
+.libPaths(c(lib,.libPaths()))
+options(Ncpus=2,timeout=300,repos=c(CRAN='https://cloud.r-project.org'))
+cat('EXISTING_LIBS',.libPaths(),'\n')
+BiocManager::install('fgsea',lib=lib,ask=FALSE,update=FALSE,Ncpus=2)
+stopifnot(requireNamespace('fgsea',quietly=TRUE))
+cat('FGSEA_INSTALLED',as.character(packageVersion('fgsea')),'\n')

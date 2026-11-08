@@ -1,0 +1,234 @@
+{
+  "version": "AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04",
+  "seeds": [
+    20020130,
+    20020131,
+    20020132
+  ],
+  "std_ddof": 1,
+  "folds": {
+    "fold1": {
+      "target": "GSE214979",
+      "sources": [
+        "GSE268609",
+        "SEAAD_MTG",
+        "GSE288063_GSE278576"
+      ]
+    },
+    "fold2": {
+      "target": "GSE268609",
+      "sources": [
+        "GSE214979",
+        "SEAAD_MTG",
+        "GSE288063_GSE278576"
+      ]
+    },
+    "fold3": {
+      "target": "SEAAD_MTG",
+      "sources": [
+        "GSE214979",
+        "GSE268609",
+        "GSE288063_GSE278576"
+      ]
+    },
+    "fold4": {
+      "target": "GSE288063_GSE278576",
+      "sources": [
+        "GSE214979",
+        "GSE268609",
+        "SEAAD_MTG"
+      ]
+    }
+  },
+  "representation_methods": [
+    "Full_B2",
+    "RNA_only_Encoder"
+  ],
+  "prediction_unit": "one vector and label per cohort-qualified donor/sample-group; never repeat labels by cell count",
+  "source2": {
+    "AD": [
+      1,
+      2,
+      3,
+      4,
+      26,
+      28,
+      30,
+      34
+    ],
+    "HA": [
+      7,
+      8,
+      27,
+      31,
+      36
+    ],
+    "count": 13,
+    "cells": 51246,
+    "user_confirmed_13": true,
+    "unit": "technical group treated as one donor-level prediction sample; biological independence unverified"
+  },
+  "probe": {
+    "penalty": "l2",
+    "C": 0.1,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "tol": 0.0001,
+    "class_weight": "balanced",
+    "fit_intercept": true
+  },
+  "decision_threshold": 0.5,
+  "hyperparameter_search": false,
+  "pooling": {
+    "name": "Cell-type P2",
+    "order": [
+      "Excitatory",
+      "Inhibitory",
+      "Astrocytes",
+      "Oligodendrocytes",
+      "OPC"
+    ],
+    "embedding_dim": 64,
+    "donor_feature_dim": 320,
+    "aggregation": "mean of all cells in each donor x cell type, concatenate five blocks; no region reweighting",
+    "missing": "per-feature equal-donor observed SOURCE mean; apply unchanged to TARGET",
+    "all_source_missing_feature": "fail and report; do not fill from TARGET",
+    "proportions": false,
+    "unknown_cells": "retain in annotation audit; exclude from the five P2 blocks"
+  },
+  "preprocessing": {
+    "imputation_fit": "equal-donor vectors from all three labelled SOURCE cohorts only",
+    "scaler": "StandardScaler fitted to imputed donor vectors from all three SOURCE cohorts only",
+    "target_fit": false
+  },
+  "annotation": {
+    "author_labels_first": true,
+    "external_disease_labels_used": false,
+    "transfer_required": false,
+    "taxonomy": [
+      "Excitatory",
+      "Inhibitory",
+      "Astrocytes",
+      "Oligodendrocytes",
+      "OPC",
+      "Microglia/PVM",
+      "Endothelial",
+      "Pericytes/VLMC"
+    ],
+    "new_cohort_mapping": {
+      "Excitatory_Neuron": "Excitatory",
+      "Inhibitory_Neuron": "Inhibitory",
+      "Astro": "Astrocytes",
+      "Oligo": "Oligodendrocytes",
+      "OPC": "OPC",
+      "Microglia": "Microglia/PVM",
+      "Macro": "Microglia/PVM",
+      "Endo": "Endothelial",
+      "VLMC": "Pericytes/VLMC"
+    },
+    "unmatched": "Unknown; retained in audit and excluded from P2 blocks"
+  },
+  "comparison": {
+    "method": "PCA_RNA64",
+    "fit": "equal-SOURCE subsample of at most20000 train cells per SOURCE; SOURCE-only RNA scaler",
+    "dimensions": 64,
+    "algorithm": "sklearn PCA randomized random_state=each seed",
+    "donor_pooling": "same frozen P2",
+    "probe": {
+      "penalty": "l2",
+      "C": 0.1,
+      "solver": "lbfgs",
+      "max_iter": 1000,
+      "tol": 0.0001,
+      "class_weight": "balanced",
+      "fit_intercept": true
+    },
+    "visualization": "2D PCA fitted on imputed standardized SOURCE donor vectors, transform TARGET; display only",
+    "methods": [
+      "Full_B2",
+      "RNA_only_Encoder",
+      "PCA_RNA64"
+    ]
+  },
+  "disease_training_labels": "all reliable labelled units in three SOURCE cohorts; no TARGET units",
+  "probe_sources": {
+    "fold1": [
+      "GSE268609",
+      "SEAAD_MTG",
+      "GSE288063_GSE278576"
+    ],
+    "fold2": [
+      "GSE214979",
+      "SEAAD_MTG",
+      "GSE288063_GSE278576"
+    ],
+    "fold3": [
+      "GSE214979",
+      "GSE268609",
+      "GSE288063_GSE278576"
+    ],
+    "fold4": [
+      "GSE214979",
+      "GSE268609",
+      "SEAAD_MTG"
+    ]
+  },
+  "probe_unit_counts": {
+    "fold1": 47,
+    "fold2": 49,
+    "fold3": 38,
+    "fold4": 52
+  },
+  "encoder_source_counts": {
+    "fold1": 3,
+    "fold2": 3,
+    "fold3": 3,
+    "fold4": 3
+  },
+  "supersedes": "rev03 three-fold primary analysis; retired_legacy_cohort excluded from all new training and evaluation",
+  "metrics": [
+    "AUROC",
+    "Balanced_Accuracy",
+    "Macro_F1",
+    "Sensitivity",
+    "Specificity",
+    "Accuracy",
+    "AUPRC"
+  ],
+  "reporting": "every fold and seed; mean/sampleSD; equal-fold macro average; no seed selection",
+  "target_policy": "no TARGET labels/metrics for annotation, preprocessing, fitting, checkpoint selection or probe tuning",
+  "biology": {
+    "groups": "frozen TARGET predicted AD vs predicted Control",
+    "replication": "donor/sample-group, not individual cells",
+    "differential": "donor mean full-gene CP10K log1p RNA, Welch t-test and BH; exploratory prediction-defined groups",
+    "evaluability": "at least2 units per predicted group; otherwise NOT_EVALUABLE",
+    "effect": "log2 ratio of group means of donor mean CP10K, pseudocount1",
+    "genes": "all36601 aligned genes; test only genes detected in at least2 TARGET units; never select by true diagnosis",
+    "ora": "GO_BP2025 and Reactome2022; hypergeometric plus BH; background=all tested mapped genes",
+    "query": "FDR<0.05 and abs(log2FC)>0.25; top200 per direction by FDR,pvalue,geneID",
+    "term_filter": "10..2000 background-mapped genes; FDR<0.05 and overlap>=3",
+    "note": "posthoc associations of expression-derived predictions; not independent confirmation of disease mechanisms"
+  },
+  "training_authorization": "four-fold three-seed Full B2 and RNA-only training/evaluation authorized; preserve historical runs",
+  "output_root": "/home/u202522802045/share/zpb/result_contain/AD_FOURFOLD_P2_LINEAR_GSE288063_20261028_rev04",
+  "replacement_cohort": {
+    "name": "GSE288063_GSE278576",
+    "AD": 5,
+    "Control": 5,
+    "independent_donors": 10,
+    "author_cells": 54999,
+    "libraries": 11,
+    "ad22": "two libraries pooled into one donor",
+    "selection": "fixed before model results; HP excluded; five age-matched controls",
+    "QC": "author Library+Barcode metadata subset; raw control droplets excluded",
+    "gate": "verification_report_rev04.json must PASS before any preprocessing",
+    "donor_overlap": "prior audit found no metadata donor-ID overlap; hidden biological overlap not independently excluded"
+  },
+  "feature_policy": {
+    "normalization": "CP10K on full 36601 stable shared RNA gene dictionary, log1p before feature selection",
+    "HVG": "per-cohort SOURCE train, equal-donor weights; top2000 intersection if >=256 else frozen equal-rank fallback top2000",
+    "ATAC": "SOURCE native-peak interval union; TARGET peaks not used; existing overlap mapping and B_D/F formulas retained",
+    "new_donor_split": "seed20020130; frozen historical donor-stratified 20% validation rule; ad22 libraries never split",
+    "existing_splits": "reuse exact historical donor splits; GSE268609 all 13 technical groups train, no invented validation"
+  }
+}

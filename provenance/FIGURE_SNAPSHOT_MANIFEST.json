@@ -1,0 +1,98 @@
+[
+  {
+    "release_path": "figures/source_snapshot/图2/图2.1_PBMC-D评分.py",
+    "workspace_source": "画图/我们的图/图2/图2.1_PBMC-D评分.py",
+    "sha256": "de6d7a6d336349c14da00b5b2a6c1c13b493f7d7dd4b286c2c677d9853773f0e",
+    "bytes": 6486
+  },
+  {
+    "release_path": "figures/source_snapshot/图2/图2.1_PBMC-D评分_绘图数据.json",
+    "workspace_source": "画图/我们的图/图2/图2.1_PBMC-D评分_绘图数据.json",
+    "sha256": "45bcddb721ba929001beccb5c294ab1e764fbc06e3e02744c1f4fca1829f5f15",
+    "bytes": 2394
+  },
+  {
+    "release_path": "figures/source_snapshot/图2/图2.1_PBMC-D评分_绘图配置.json",
+    "workspace_source": "画图/我们的图/图2/图2.1_PBMC-D评分_绘图配置.json",
+    "sha256": "0a0395be6e5ab7add6c7602458a1844571ae14e91fe8dabd0eb50cadb9396f3c",
+    "bytes": 638
+  },
+  {
+    "release_path": "figures/source_snapshot/图2/图2.1_PBMC-D评分.png",
+    "workspace_source": "画图/我们的图/图2/图2.1_PBMC-D评分.png",
+    "sha256": "879593f5d2da0f7c38678a34f29a0b95b72cbd3ddec24837bc74b1f4b6fed29a",
+    "bytes": 289727
+  },
+  {
+    "release_path": "figures/source_snapshot/图2/图2.3_PBMC-imtra-效率.py",
+    "workspace_source": "画图/我们的图/图2/图2.3_PBMC-imtra-效率.py",
+    "sha256": "9d183645588491bd2ca6f03ebb5938e4d4b1c12136d19b26e4dfa4f63760795c",
+    "bytes": 15881
+  },
+  {
+    "release_path": "figures/source_snapshot/图2/图2.3_PBMC-imtra-效率_数据.json",
+    "workspace_source": "画图/我们的图/图2/图2.3_PBMC-imtra-效率_数据.json",
+    "sha256": "c06ebf5f347a546b10b786eed8cc4ead1cd1e42bf3ad9088db9c7889ba04fcca",
+    "bytes": 3444
+  },
+  {
+    "release_path": "figures/source_snapshot/图2/图2.3_PBMC-imtra-效率_输入原表.md",
+    "workspace_source": "画图/我们的图/图2/图2.3_PBMC-imtra-效率_输入原表.md",
+    "sha256": "4726a6bb76e21b27f77b87756152b961b736e61ada1c479d46c80da0092c33b0",
+    "bytes": 2219
+  },
+  {
+    "release_path": "figures/source_snapshot/图2/图2.3_PBMC-imtra-效率.png",
+    "workspace_source": "画图/我们的图/图2/图2.3_PBMC-imtra-效率.png",
+    "sha256": "34a8a530e0beb21aa156299ce190b1be0f99ae94893ce0c2c685efd7076283ee",
+    "bytes": 147779
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/Figure3A_regulatory_reproducibility_vertical.py",
+    "workspace_source": "画图/我们的图/图3/Figure3A_regulatory_reproducibility_vertical.py",
+    "sha256": "0f1743db054fa8cae64297726b64f032bafad1e7e2bf86a84a0b2750fb99e81e",
+    "bytes": 4161
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/Figure3A_regulatory_reproducibility_vertical.json",
+    "workspace_source": "画图/我们的图/图3/Figure3A_regulatory_reproducibility_vertical.json",
+    "sha256": "83cd936b6f1c4f5fe190170e9935b8b74c8006fa42dde1f0fe3a6575a4eb6e39",
+    "bytes": 2791
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/Figure3A_regulatory_reproducibility_vertical.png",
+    "workspace_source": "画图/我们的图/图3/Figure3A_regulatory_reproducibility_vertical.png",
+    "sha256": "d0788cae7ca1eba9399b54d5d30a971d8315d7039c3108c798e12e5ed5495779",
+    "bytes": 203561
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/Figure3B1_ENCODE_cCRE_barplot.py",
+    "workspace_source": "画图/我们的图/图3/Figure3B1_ENCODE_cCRE_barplot.py",
+    "sha256": "ad0f48e900c6ef40cefe54b31ee9b77aedbe831a995010e4278aae7d5b9373ff",
+    "bytes": 5109
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/Figure3B1_ENCODE_cCRE_used_data.csv",
+    "workspace_source": "画图/我们的图/图3/Figure3B1_ENCODE_cCRE_used_data.csv",
+    "sha256": "a699285cbaaed567cee9ba0f57917b7c9824d2d619cff51596d7982971649704",
+    "bytes": 1884
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/Figure3B1_ENCODE_cCRE_barplot.png",
+    "workspace_source": "画图/我们的图/图3/Figure3B1_ENCODE_cCRE_barplot.png",
+    "sha256": "e06fa8f6193b1f4002d70770c8314c008c0d947a4afe49e3799ddcde06d021ad",
+    "bytes": 83929
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/图3_当前选定版本.md",
+    "workspace_source": "画图/我们的图/图3/图3_当前选定版本.md",
+    "sha256": "23243cefc203ac0405078b55dabde4876317cf6aadc0fe73bd5d0d1fda8c4e74",
+    "bytes": 1715
+  },
+  {
+    "release_path": "figures/source_snapshot/图3/图3_当前选定版本.json",
+    "workspace_source": "画图/我们的图/图3/图3_当前选定版本.json",
+    "sha256": "506b97c8665e478e55ac71b3298741f29f5637dca030f44e91e19b36d1a240cd",
+    "bytes": 3032
+  }
+]

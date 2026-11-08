@@ -1,0 +1,24 @@
+# Hostname to environment mapping
+hostname_mapping:
+  "/(MacBook-Pro-de-Dylan.local|MBP-de-Dylan.lan)/": "local_directories"                               # Exact hostname match
+  "/^narval-.*/": "narval_directories"                                            # Regex pattern for Narval hosts
+  "/(mcb|buckeridge|hlr-cfi|ri-muhc|wh|yl)/": "mcb_directories"                   # Regex pattern for MCB hosts
+
+# Optional: Default active environment if hostname detection fails
+active_environment: "mcb_directories"
+
+# Environment-specific directories
+local_directories:
+  ECLARE_ROOT: "/Users/dmannk/cisformer/ECLARE"
+  OUTPATH: "/Users/dmannk/cisformer/outputs"
+  DATAPATH: "/Users/dmannk/cisformer/data"
+
+narval_directories:
+  ECLARE_ROOT: "/home/dmannk/projects/def-liyue/dmannk/ECLARE"
+  OUTPATH: "/home/dmannk/scratch"
+  DATAPATH: "/home/dmannk/projects/def-liyue/dmannk/data"
+
+mcb_directories:
+  ECLARE_ROOT: "/home/mcb/users/dmannk/scMultiCLIP/ECLARE"
+  OUTPATH: "/home/mcb/users/dmannk/scMultiCLIP/outputs"
+  DATAPATH: "/home/mcb/users/dmannk/scMultiCLIP/data"

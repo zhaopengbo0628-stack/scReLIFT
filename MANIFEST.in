@@ -1,0 +1,9 @@
+include LICENSE LICENSE_STATUS.md CITATION.cff THIRD_PARTY_NOTICES.md environment.yml README_zh.md
+recursive-include configs *.json
+recursive-include docs *.md
+recursive-include examples *.sh
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include provenance *.json *.md *.log
+recursive-include paper_snapshot *.py *.sh *.json *.yaml *.yml *.toml *.txt *.md *.R
+recursive-include figures *.py *.csv *.json *.md *.png

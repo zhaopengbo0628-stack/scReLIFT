@@ -1,0 +1,57 @@
+{
+  "method": "B2",
+  "run_tier": "pre_final_user_declared_gated_seeds",
+  "epochs": 100,
+  "patience": 15,
+  "batch_size": 256,
+  "clip": 1.0,
+  "teacher_lr": 0.001,
+  "student_lr": 0.0001,
+  "weight_decay": 0.0001,
+  "mask_rate": 0.15,
+  "eps": 1e-06,
+  "evaluator": {
+    "init": "k-means++",
+    "n_init": 100,
+    "random_state": 20020130,
+    "max_iter": 1000,
+    "tol": 0.0001,
+    "algorithm": "lloyd"
+  },
+  "architecture": "input-512-LN-GELU-dropout0.1-64-LN; mean fusion; 64-512-GELU-input decoders",
+  "teacher_objectives": [
+    "RNA+F reconstruction",
+    "same-cell MSE"
+  ],
+  "initial_scale_batches": 8,
+  "student_objective": "source-train standardized clean Teacher MSE",
+  "student_encoder_includes_final_layernorm": true,
+  "balanced_batch_counts": [
+    86,
+    85,
+    85
+  ],
+  "validation": "equal dataset means",
+  "strong_mean_ari": 0.55,
+  "promising_delta_ari": 0.03,
+  "nmi_mean_regression_limit": 0.01,
+  "nmi_fold_regression_limit": 0.03,
+  "teacher_gate": {
+    "min_rank": 8.0,
+    "min_active_variance_fraction": 0.8,
+    "variance_threshold": 0.0001,
+    "max_same_shuffled_ratio": 0.9,
+    "min_probe_mean_r2": 0.0,
+    "min_F_R_norm_ratio": 0.1,
+    "min_fused_R_difference": 0.05
+  },
+  "source_gate_scope": "every source validation dataset in all 4 outer folds",
+  "cohort_caveat": "inherited paired/QC cohort and label-stratified splits",
+  "target_atac_used": false,
+  "target_adaptation": false,
+  "EVALUATION_TIME_UNSUPERVISED_SCALING": true,
+  "KNOWN_K_EVALUATION": true,
+  "seed": 20020130,
+  "fold": "target_D1",
+  "independent_teacher_per_seed": true
+}

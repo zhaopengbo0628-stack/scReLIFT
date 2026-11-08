@@ -1,0 +1,31 @@
+{
+  "model_name": "scReLIFT",
+  "seeds": [
+    20020130,
+    20020131,
+    20020132
+  ],
+  "summary_ddof": 1,
+  "historical_method_identifiers": [
+    "Full B2",
+    "Full_B2",
+    "B2full"
+  ],
+  "comparator_display_names": {
+    "ECLARE": "ECLARE-S"
+  },
+  "target_atac_used": false,
+  "target_adaptation": false,
+  "epochs": 100,
+  "patience": 15,
+  "batch_size": 256,
+  "teacher_lr": 0.001,
+  "student_lr": 0.0001,
+  "mask_rate": 0.15,
+  "latent_dim": 64,
+  "graph_window_bp": 250000,
+  "max_candidates": 50,
+  "resample_count": 10,
+  "resample_fraction": 0.2,
+  "edge_density": 0.5
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: Please cite the scReLIFT manuscript when using this software.
+title: 'scReLIFT: Single-cell Regulatory Latent Information Fusion and Transfer for RNA-only Analysis'
+type: software
+version: 0.1.0
+date-released: 2026-11-08
+repository-code: 'https://github.com/zhaopengbo0628-stack/scReLIFT'
+url: 'https://github.com/zhaopengbo0628-stack/scReLIFT'
+license: MIT
+authors:
+  - family-names: Zhao
+    given-names: Pengbo
+  - family-names: Zhao
+    given-names: Pengshuo
+  - family-names: Zhang
+    given-names: Yihang
+  - family-names: Li
+    given-names: Xiangtao
+  - family-names: Wang
+    given-names: Yunhe
+  - family-names: Cheng
+    given-names: Yue

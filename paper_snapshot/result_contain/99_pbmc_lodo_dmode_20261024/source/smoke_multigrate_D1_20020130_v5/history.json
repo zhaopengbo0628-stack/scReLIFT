@@ -1,0 +1,12 @@
+[
+  {
+    "epoch": 1,
+    "source_validation_loss": 84.89752884576663,
+    "kl_weight": 0.0
+  },
+  {
+    "epoch": 2,
+    "source_validation_loss": 77.01485167222775,
+    "kl_weight": 0.015151515151515152
+  }
+]

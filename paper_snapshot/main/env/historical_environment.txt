@@ -1,0 +1,9 @@
+{
+  "python": "3.10.20",
+  "torch": "2.4.1+cu121",
+  "CUDA_VERSION": "12.1",
+  "GPU_MODEL": "NVIDIA A30",
+  "GPU_VRAM": 25531580416,
+  "DRIVER_VERSION": "570.195.03",
+  "PRECISION_MODE": "float32; TF32 disabled"
+}

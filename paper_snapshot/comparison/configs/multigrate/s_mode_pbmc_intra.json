@@ -1,0 +1,24 @@
+{
+  "method": "multigrate",
+  "datasets": [
+    "D1",
+    "D2",
+    "D3",
+    "D4"
+  ],
+  "seeds": [
+    20020130,
+    20020131,
+    20020132,
+    20020133,
+    20020134
+  ],
+  "run_tier": "pre_final",
+  "protocol": "single Source train; fixed validation; frozen RNA-only held-out intra; no pooling",
+  "latent_dim": 64,
+  "max_epochs": 200,
+  "batch_size": 256,
+  "learning_rate": 0.0005,
+  "kl_warmup_epochs": 66,
+  "patience": 10
+}

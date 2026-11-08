@@ -1,0 +1,123 @@
+{
+  "model": "scReLIFT",
+  "layout": "6 fold-pair rows x 3 metric columns",
+  "circle_area_pt2": 1300,
+  "color_limits": [
+    0,
+    1
+  ],
+  "data_sha256": "3199240ea868925f759335c6ccf5fd4abcf58188cfdd494c0f04b4afe609c3dd",
+  "data_source": "E:\\my_research\\画图\\我们的图\\图3\\绘图数据\\图3.2_Regulatory_Reproducibility_用户指定.csv",
+  "number_labels": [
+    {
+      "fold_pair": "D1-D2",
+      "metric": "interval_jaccard",
+      "input": "0.507",
+      "label": "0.51"
+    },
+    {
+      "fold_pair": "D1-D2",
+      "metric": "sign_consistency",
+      "input": "0.904",
+      "label": "0.90"
+    },
+    {
+      "fold_pair": "D1-D2",
+      "metric": "weight_spearman",
+      "input": "0.825",
+      "label": "0.83"
+    },
+    {
+      "fold_pair": "D1-D3",
+      "metric": "interval_jaccard",
+      "input": "0.633",
+      "label": "0.63"
+    },
+    {
+      "fold_pair": "D1-D3",
+      "metric": "sign_consistency",
+      "input": "0.903",
+      "label": "0.90"
+    },
+    {
+      "fold_pair": "D1-D3",
+      "metric": "weight_spearman",
+      "input": "0.803",
+      "label": "0.80"
+    },
+    {
+      "fold_pair": "D1-D4",
+      "metric": "interval_jaccard",
+      "input": "0.713",
+      "label": "0.71"
+    },
+    {
+      "fold_pair": "D1-D4",
+      "metric": "sign_consistency",
+      "input": "0.940",
+      "label": "0.94"
+    },
+    {
+      "fold_pair": "D1-D4",
+      "metric": "weight_spearman",
+      "input": "0.888",
+      "label": "0.89"
+    },
+    {
+      "fold_pair": "D2-D3",
+      "metric": "interval_jaccard",
+      "input": "0.554",
+      "label": "0.55"
+    },
+    {
+      "fold_pair": "D2-D3",
+      "metric": "sign_consistency",
+      "input": "0.949",
+      "label": "0.95"
+    },
+    {
+      "fold_pair": "D2-D3",
+      "metric": "weight_spearman",
+      "input": "0.908",
+      "label": "0.91"
+    },
+    {
+      "fold_pair": "D2-D4",
+      "metric": "interval_jaccard",
+      "input": "0.594",
+      "label": "0.59"
+    },
+    {
+      "fold_pair": "D2-D4",
+      "metric": "sign_consistency",
+      "input": "0.977",
+      "label": "0.98"
+    },
+    {
+      "fold_pair": "D2-D4",
+      "metric": "weight_spearman",
+      "input": "0.964",
+      "label": "0.96"
+    },
+    {
+      "fold_pair": "D3-D4",
+      "metric": "interval_jaccard",
+      "input": "0.795",
+      "label": "0.80"
+    },
+    {
+      "fold_pair": "D3-D4",
+      "metric": "sign_consistency",
+      "input": "0.971",
+      "label": "0.97"
+    },
+    {
+      "fold_pair": "D3-D4",
+      "metric": "weight_spearman",
+      "input": "0.949",
+      "label": "0.95"
+    }
+  ],
+  "rounding": "Decimal ROUND_HALF_UP",
+  "original_horizontal_preserved": true
+}

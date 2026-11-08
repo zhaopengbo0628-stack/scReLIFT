@@ -1,0 +1,15 @@
+{
+  "method": "ECLARE-S",
+  "datasets": ["D1", "D2", "D3", "D4"],
+  "seeds": [20020130, 20020131, 20020132, 20020133, 20020134],
+  "run_tier": "pre_final",
+  "protocol": "Three independent same-Source CLIP teachers; Source-only ensemble KL/OT student; frozen test RNA only",
+  "teachers": 3,
+  "distil_lambda": 0.006,
+  "max_epochs": 100,
+  "patience": 10,
+  "batch_size": 128,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "latent_dim": 64
+}

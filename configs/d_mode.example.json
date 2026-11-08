@@ -1,0 +1,10 @@
+{
+  "target": "PBMC-MO-001",
+  "sources": [
+    {"name": "PBMC-MO-002", "prepared_dir": "../data/prepared/PBMC-MO-002"},
+    {"name": "PBMC-MO-003", "prepared_dir": "../data/prepared/PBMC-MO-003"},
+    {"name": "PBMC-MO-004", "prepared_dir": "../data/prepared/PBMC-MO-004"}
+  ],
+  "gtf": "../data/reference/gencode.v32.primary_assembly.annotation.gtf.gz",
+  "smoke_only": false
+}

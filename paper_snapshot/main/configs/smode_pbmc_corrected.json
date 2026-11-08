@@ -1,0 +1,22 @@
+{
+  "benchmark_identity_confirmed": true,
+  "identity_confirmation": "User confirmed current PBMC-MO-001/002/003/004; old TEA-seq D1 is incorrect",
+  "identities": {
+    "D1": "10x:pbmc_granulocyte_sorted_10k:ARC1.0.0",
+    "D2": "GEO:GSE196990:GSE196988+GSE196987:HDa",
+    "D3": "10x:pbmc_unsorted_10k:ARC2.0.0",
+    "D4": "10x:pbmc_unsorted_3k:ARC2.0.0"
+  },
+  "cache_root": "/home/u202522802045/share/zpb/data/cache/s_mode/PBMC",
+  "result_root": "/home/u202522802045/share/zpb/main/result/s_mode/preflight_20261012",
+  "seeds": [
+    20020130,
+    20020131,
+    20020132,
+    20020133,
+    20020134
+  ],
+  "run_tier": "pre_final",
+  "input_protocol": "current frozen benchmark/splits; per-single-Source train-only fitting; frozen Target RNA-only inference",
+  "source_git_commit": "f39ae2d"
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "Strict RNA Baseline",
+  "architecture": [
+    328,
+    512,
+    64,
+    512,
+    328
+  ],
+  "activation": "ReLU",
+  "input_mask_rate": 0.15,
+  "loss": "MSE reconstruction",
+  "optimizer": "AdamW",
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "epochs": 20,
+  "batch_size": 256,
+  "seed": 20020130,
+  "checkpoint_selection": "source-validation reconstruction only",
+  "normalization": "dataset-balanced SOURCE train mean/std",
+  "target_atac_used": false,
+  "target_labels_used_for_training_or_selection": false,
+  "target_cache_manifest_sha256": "a43ee0e8b3597cc10de2068d2396cffefbac6cb088e2e93fa65c5346aa7dd337",
+  "run_tier": "pre_final"
+}

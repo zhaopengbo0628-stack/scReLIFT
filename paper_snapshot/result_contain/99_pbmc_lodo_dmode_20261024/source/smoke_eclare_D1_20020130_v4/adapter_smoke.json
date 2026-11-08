@@ -1,0 +1,61 @@
+{
+  "status": "SMOKE_PASS",
+  "method": "ECLARE",
+  "fold": "target_D1",
+  "seed": 20020130,
+  "sources": [
+    "PBMC-MO-002",
+    "PBMC-MO-003",
+    "PBMC-MO-004"
+  ],
+  "target_protocol": "RNA-only frozen inference",
+  "target_atac_used": false,
+  "target_labels_used": false,
+  "target_fitting": false,
+  "source_only_peak_cap": 512,
+  "source_ids_retained": true,
+  "source_counts": {
+    "PBMC-MO-002": 4421,
+    "PBMC-MO-003": 5677,
+    "PBMC-MO-004": 1693
+  },
+  "target_rna_shape": [
+    1403,
+    328
+  ],
+  "latent_shape": [
+    1403,
+    64
+  ],
+  "native_support": "official ECLARE CLIP teacher/student path",
+  "stages": [
+    {
+      "stage": "teacher_0_CLIP",
+      "trainable_parameters": 160896,
+      "seconds": 1.8791675828397274,
+      "peak_allocated_bytes": 21002752,
+      "peak_reserved_bytes": 25165824
+    },
+    {
+      "stage": "teacher_1_CLIP",
+      "trainable_parameters": 160896,
+      "seconds": 1.6826002998277545,
+      "peak_allocated_bytes": 22290944,
+      "peak_reserved_bytes": 27262976
+    },
+    {
+      "stage": "teacher_2_CLIP",
+      "trainable_parameters": 160896,
+      "seconds": 1.5638608857989311,
+      "peak_allocated_bytes": 23579136,
+      "peak_reserved_bytes": 29360128
+    },
+    {
+      "stage": "ensemble_KL_OT",
+      "trainable_parameters": 169218,
+      "seconds": 7.99118394870311,
+      "peak_allocated_bytes": 25057280,
+      "peak_reserved_bytes": 29360128
+    }
+  ]
+}

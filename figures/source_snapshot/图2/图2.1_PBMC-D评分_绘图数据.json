@@ -1,0 +1,97 @@
+{
+  "status": "preview from user-provided means; comparison protocols not fully audited",
+  "metrics": [
+    "ARI",
+    "NMI",
+    "ACC",
+    "Macro-F1",
+    "Balanced ACC",
+    "Purity@15",
+    "Silhouette"
+  ],
+  "records": [
+    {
+      "method": "scReLIFT",
+      "source_method": "Full B2-D",
+      "values": {
+        "ARI": 0.6691765,
+        "NMI": 0.7372425,
+        "ACC": 0.7039387500000001,
+        "Macro-F1": 0.4979205,
+        "Balanced ACC": 0.5275427500000001,
+        "Purity@15": 0.74419875,
+        "Silhouette": 0.12707925
+      }
+    },
+    {
+      "method": "Palette-U",
+      "source_method": "Palette-U",
+      "values": {
+        "ARI": 0.24,
+        "NMI": 0.457,
+        "ACC": 0.35,
+        "Macro-F1": 0.299,
+        "Balanced ACC": 0.368,
+        "Purity@15": 0.511,
+        "Silhouette": -0.022
+      }
+    },
+    {
+      "method": "Multigrate",
+      "source_method": "Multigrate",
+      "values": {
+        "ARI": 0.225,
+        "NMI": 0.489,
+        "ACC": 0.4,
+        "Macro-F1": 0.362,
+        "Balanced ACC": 0.467,
+        "Purity@15": 0.573,
+        "Silhouette": -0.005
+      }
+    },
+    {
+      "method": "ECLARE-S",
+      "source_method": "ECLARE",
+      "values": {
+        "ARI": 0.563,
+        "NMI": 0.62,
+        "ACC": 0.546,
+        "Macro-F1": 0.26,
+        "Balanced ACC": 0.3,
+        "Purity@15": 0.596,
+        "Silhouette": -0.074
+      }
+    },
+    {
+      "method": "MultiVI",
+      "source_method": "MultiVI",
+      "values": {
+        "ARI": 0.312,
+        "NMI": 0.508,
+        "ACC": 0.362,
+        "Macro-F1": 0.286,
+        "Balanced ACC": 0.354,
+        "Purity@15": 0.523,
+        "Silhouette": -0.05
+      }
+    },
+    {
+      "method": "scButterfly",
+      "source_method": "scButterfly",
+      "values": {
+        "ARI": 0.4176,
+        "NMI": 0.6249,
+        "ACC": 0.4817,
+        "Macro-F1": 0.4227,
+        "Balanced ACC": 0.4799,
+        "Purity@15": 0.7031,
+        "Silhouette": 0.0474
+      }
+    }
+  ],
+  "sources": [
+    "E:\\my_research\\画图\\我们的图\\图2\\证据\\Full_B2_D_四折用户数据.json",
+    "E:\\my_research\\画图\\我们的图\\图2\\证据\\Dmode_对比评分与效率_用户原表.md"
+  ],
+  "display": "Two decimal means; missing values NA; per-column PRGn normed_cmap(num_stds=2.5)"
+}
